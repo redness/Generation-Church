@@ -23,32 +23,29 @@
 },
 
 "#socialIcons": {
+	layout:"horizontal",
 	top:"10",
-	height:"70",
-	width:"210"
+	height:"52",
+	width:"154"
 },
-
-"ViewImage": {
-	
-}
 
 "#imageFacebook": {
 	height:"100%",
-	width:"65",
+	width:"47",
 	left:"4",
 	image:"facebook.png"
 },
 
 "#imageTwitter": {
 	height:"100%",
-	width:"65",
+	width:"47",
 	left:"4",
 	image:"twitter.png"
 },
 
 "#imageInstagram": {
 	height:"100%",
-	width:"65",
+	width:"47",
 	left:"4",
 	image:"instagram.png"
 },
@@ -58,7 +55,7 @@
 	image:"GenerationBanner.png"
 },
 
-"#imageForClayton": {
+"#imageTagboard": {
 	height:Ti.UI.SIZE,
 	image:"tagboard.png"
 },

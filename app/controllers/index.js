@@ -30,7 +30,7 @@ $.lblGencal.addEventListener('click', function(e) {
     controller.getView().open();
     });
     
-$.imageForClayton.addEventListener('click', function(e) {
+$.imageTagboard.addEventListener('click', function(e) {
     var controller = Alloy.createController("tagboard");
     controller.getView().open();
     });

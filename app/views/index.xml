@@ -6,13 +6,13 @@
 			<Label id="lblWelcomeMessage" color="black">Helping people say yes to Jesus</Label>
 			<Label width="100%" height="1" top="20" backgroundColor="#2AABE4" />
 			<Label id="lblSocial" color="29AAE3">Like or Follow Us on Social Media</Label>
-		<View id="socialIcons" layout="horizontal">
+		<View id="socialIcons">
 			<ImageView id="imageFacebook" />
 			<ImageView id="imageTwitter" />
 			<ImageView id="imageInstagram" />		
 		</View>
 		<View id="viewTagboard">
-			<ImageView id="imageForClayton" />
+			<ImageView id="imageTagboard" width="150"/>
 		</View>	
 			<Label id="lblGencal" top="20">View Calendar of Events</Label>
 			<Label id="lblPrayers">Submit a Prayer Request</Label>

@@ -1,0 +1,49 @@
+
+".container" : {
+	layout:"vertical",
+	backgroundImage:"prayinghands.png"
+},
+
+"#header": {
+	textAlign:"center",
+	font: {
+		fontSize:"16",
+	}
+},
+
+"Label": {
+	top:"10",
+	textAlign:"left",
+	width:"75%",
+	color:"white",
+	shadowColor:"black",
+	shadowOffset: { x: 1, y: 1 },
+	font: {
+		fontWeight:"bold",
+		fontSize:"14"
+	}
+},
+
+"TextField": {
+	backgroundColor:"white",
+	borderRadius:"10",
+	width:"75%",
+	height:"44",
+	paddingLeft:"10",
+	paddingRight:"10"
+},
+
+"TextArea": {
+	width:"75%",
+	height:"100",
+	borderRadius:"10"
+},
+
+"Button": {
+	top:"10",
+	width:"200",
+	backgroundColor:"white",
+	color:"black",
+	borderRadius:"10",
+	borderColor:"black"
+}

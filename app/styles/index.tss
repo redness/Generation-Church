@@ -1,0 +1,80 @@
+".container": {
+	backgroundColor:"white",
+	layout:"vertical"
+},
+
+"#lblWelcomeMessage": {
+	width:"90%",
+	font: {
+		// fontWeight:"bold",
+		fontFamily:"Baskerville-SemiBoldItalic",
+		fontSize:"20"
+	}
+},
+
+"#viewBanner": {
+	height:Ti.UI.SIZE,
+	top:"40"
+},
+
+"#viewTagboard": {
+	height:"80",
+	top:"10"
+},
+
+"#socialIcons": {
+	top:"10",
+	height:"70",
+	width:"210"
+},
+
+"ViewImage": {
+	
+}
+
+"#imageFacebook": {
+	height:"100%",
+	width:"65",
+	left:"4",
+	image:"facebook.png"
+},
+
+"#imageTwitter": {
+	height:"100%",
+	width:"65",
+	left:"4",
+	image:"twitter.png"
+},
+
+"#imageInstagram": {
+	height:"100%",
+	width:"65",
+	left:"4",
+	image:"instagram.png"
+},
+
+
+"#imageBanner": {
+	image:"GenerationBanner.png"
+},
+
+"#imageForClayton": {
+	height:Ti.UI.SIZE,
+	image:"tagboard.png"
+},
+
+"View": {
+	top:"10"
+},
+
+"Label": {
+	width:"75%",
+	textAlign:"center",
+	top:"20",
+	color:"black",
+	font: {
+		fontFamily:"BanglaSangamMN-Bold",
+		fontWeight:"Bold",
+		fontSize:"15"
+	}
+}

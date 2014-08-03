@@ -1,0 +1,10 @@
+<Alloy>
+    <NavigationWindow id="win" platform='ios'>
+    	<Window title="#Tagboard">
+    		<LeftNavButton platform='ios'>
+    			<Button id="btnBack">Back</Button>
+    		</LeftNavButton>
+	        <WebView id="webview" url="https://tagboard.com/forclaytonnc/181676" />
+    	</Window>
+    </NavigationWindow>
+</Alloy>

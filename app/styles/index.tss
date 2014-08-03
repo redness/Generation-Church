@@ -26,27 +26,27 @@
 	layout:"horizontal",
 	top:"10",
 	height:"35",
-	width:"112"
+	width:"150"
 },
 
 "#imageFacebook": {
 	height:"100%",
 	width:"33",
-	left:"4",
+	left:"10",
 	image:"facebook.png"
 },
 
 "#imageTwitter": {
 	height:"100%",
 	width:"33",
-	left:"4",
+	left:"15",
 	image:"twitter.png"
 },
 
 "#imageInstagram": {
 	height:"100%",
 	width:"33",
-	left:"4",
+	left:"15",
 	image:"instagram.png"
 },
 

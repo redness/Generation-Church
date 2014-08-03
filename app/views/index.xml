@@ -12,7 +12,7 @@
 			<ImageView id="imageInstagram" />		
 		</View>
 		<View id="viewTagboard">
-			<ImageView id="imageTagboard" width="150"/>
+			<ImageView id="imageTagboard" width="130"/>
 		</View>	
 			<Label id="lblGencal" top="20">View Calendar of Events</Label>
 			<Label id="lblPrayers">Submit a Prayer Request</Label>

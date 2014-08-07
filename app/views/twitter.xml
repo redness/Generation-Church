@@ -1,0 +1,7 @@
+<Alloy>
+	<Window>
+		<View class="container">
+			<Button id="authorizeTwitter" borderColor="black">Authorize Twitter</Button>
+		</View>
+	</Window>
+</Alloy>

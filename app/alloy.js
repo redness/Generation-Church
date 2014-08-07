@@ -9,3 +9,8 @@
 // object. For example:
 //
 // Alloy.Globals.someGlobalFunction = function(){};
+
+// var social = require('alloy/social').create({
+    // consumerSecret:'consumer-secret',
+    // consumerKey:'consumer-key'
+// });

@@ -22,6 +22,7 @@ function getVerse(verse) {
     var json;
     var response;
     var myVerse = verse;
+    var myReference;
     
     // Setting URL and passing in myAPIKey and myVerse variables
     var url = "https://" + myAPIKey + "bibles.org/v2/verses/eng-ESV:" + myVerse + ".js";
@@ -40,7 +41,8 @@ function getVerse(verse) {
 
             // alert(jsonObject.response.search.result.passages[0].text);
             myVerseText = jsonObject.response.verses[0].text;
-            $.header.text = myVerseText;
+            myReference = jsonObject.response.verses[0].reference;
+            $.webViewVerse.html = myReference + " " + myVerseText;
 
         },
         //  Checking for error and alerting with status number
@@ -66,7 +68,7 @@ $.winHeader.addEventListener( 'load', function(e) {
     // for loop to go through arrMyVerses, need to come up with a better function as this is going through unecssary iterations
     // for ( var i = 0; i < arrMyVerses.length; i++ ) {
         getVerse( arrMyVerses[ randomIntFromInterval( 0, arrMyVerses.length ) ] );
-        $.header.text = myVerseText;
+        $.webViewVerse.text = myVerseText;
     // };
 
 });

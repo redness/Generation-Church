@@ -1,15 +1,21 @@
 
 ".container" : {
-	layout:"vertical",
-	backgroundImage:"prayinghands.png"
+	layout: "vertical",
+	backgroundColor: "white"
 },
 
-"#header": {
-	textAlign:"center",
-	font: {
-		fontSize:"16",
-	}
+"#webViewVerse": {
+	height: "180"
 },
+
+// "#header": {
+	// textAlign:"center",
+	// font: {
+		// fontSize:"16",
+	// }
+// },
+
+
 
 "Label": {
 	top:"10",

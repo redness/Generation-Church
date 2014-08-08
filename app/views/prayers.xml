@@ -4,8 +4,8 @@
 			<LeftNavButton>
 				<Button id="btnBack">Back</Button>
 			</LeftNavButton>
-			<WebView id="webViewVerse" height="200" width="80%" />
-			<ScrollView class="container" 	backgroundImage="prayinghands.png" >
+			<WebView id="webViewVerse" width="80%"/>
+			<ScrollView class="container" backgroundImage="prayinghands.png" >
 					<!-- <Label id="header" textAlign="center" /> -->					
 					<Label id="lblPrayerSubject">Subject</Label>
 					<TextField id="txtPrayerSubject" borderColor="black" top="10"></TextField>

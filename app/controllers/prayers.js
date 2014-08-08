@@ -1,22 +1,29 @@
 var args = arguments[0] || {};
 
-function randomIntFromInterval( min, max )
-    {
-        return Math.floor(Math.random()*(max-min+1)+min);
-    }
 
 var myAPIKey = "2oF3Jz4lohQhqB8aPdkp9jdAN3hGfJHiLoA5cvxo:generationchurch@";
 var myVerseText;
 
-//Executing getVerse function and passing in abbreviated book, chapter, verse
-getVerse( "john.3.30" );
-
 var arrMyVerses = [
                     "eph.2.20",
                     "ps.24.6",
-                    "gal.2.20"
+                    "gal.2.20",
+                    "john.3.30",
+                    "ps.71.18",
+                    "ps.79.13",
+                    "ps.102.18",
+                    "ps.145.4",
+                    "joel.1.3",
+                    "matt.23.36",
+                    "luke.7.31"
                     ];
- 
+                    
+//Get a Random Element to pull from arrMyVerses                    
+var myRandomElement = Math.floor(Math.random() * arrMyVerses.length);
+var myVerse = arrMyVerses[ myRandomElement ];
+getVerse( myVerse );
+// alert( myVerse );
+
 //Getting verse from bibles.org API
 function getVerse(verse) {
     var json;
@@ -67,7 +74,6 @@ $.btnBack.addEventListener('click', function(e){
 $.winHeader.addEventListener( 'load', function(e) {
     // for loop to go through arrMyVerses, need to come up with a better function as this is going through unecssary iterations
     // for ( var i = 0; i < arrMyVerses.length; i++ ) {
-        getVerse( arrMyVerses[ randomIntFromInterval( 0, arrMyVerses.length ) ] );
         $.webViewVerse.text = myVerseText;
     // };
 

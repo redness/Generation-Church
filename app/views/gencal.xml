@@ -1,6 +1,6 @@
 <Alloy>
     <NavigationWindow id="win" platform='ios'>
-    	<Window title="Gencal">
+    	<Window title="Generation Calendar">
     		<LeftNavButton platform='ios'>
     			<Button id="btnBack">Back</Button>
     		</LeftNavButton>

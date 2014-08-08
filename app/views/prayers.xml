@@ -1,11 +1,11 @@
 <Alloy>
 	<NavigationWindow id="win" class="container" platform="ios">
-		<Window title="Prayer Request" class="container">
+		<Window id="winHeader" title="Prayer Request" class="container">
 			<LeftNavButton>
 				<Button id="btnBack">Back</Button>
 			</LeftNavButton>
 			<ScrollView class="container">
-					<Label id="header" textAlign="center">We would love to pray for you.  Please submit your prayer requests below and our Core Team will add you to our daily prayers.</Label>
+					<Label id="header" textAlign="center" />
 					<Label id="lblPrayerSubject">Subject</Label>
 					<TextField id="txtPrayerSubject" borderColor="black" top="10"></TextField>
 					<Label id="lblPrayerRequest">Prayer Request</Label>

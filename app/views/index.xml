@@ -4,7 +4,7 @@
 			<ImageView id="imageBanner" />
 		</View>	
 			<Label id="lblWelcomeMessage" color="black">Helping people say yes to Jesus</Label>
-			<Label width="100%" height="1" top="20" backgroundColor="#2AABE4" />
+			<!-- <Label id="lblMyVerse" color="black" backgroundColor="red"/> -->			<Label width="100%" height="1" top="20" backgroundColor="#2AABE4" />
 			<Label id="lblSocial" color="29AAE3">Like or Follow Us on Social Media</Label>
 		<View id="socialIcons">
 			<ImageView id="imageFacebook" />

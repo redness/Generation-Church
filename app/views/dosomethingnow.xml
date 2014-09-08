@@ -1,0 +1,10 @@
+<Alloy>
+    <NavigationWindow id="win" platform='ios'>
+    	<Window title="Generation Church of Clayton">
+    		<LeftNavButton platform='ios'>
+    			<Button id="btnBack">Back</Button>
+    		</LeftNavButton>
+	        <WebView id="webview" url="http://www.dosomethingnow.me" />
+    	</Window>
+    </NavigationWindow>
+</Alloy>

@@ -16,7 +16,7 @@
 		</View>	
 			<Label id="lblGencal" top="20">View Calendar of Events</Label>
 			<Label id="lblPrayers">Submit a Prayer Request</Label>
-			<Label id="lblAbout">Mission & Vision</Label>
+			<Label id="lblAbout">Do Something Now!</Label>
 		
 	</Window>
 </Alloy>

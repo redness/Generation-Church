@@ -33,7 +33,7 @@ $.imageTagboard.addEventListener('click', function(e) {
     });
 
 $.lblAbout.addEventListener('click', function(e) {
-    var controller = Alloy.createController("about");
+    var controller = Alloy.createController("dosomethingnow");
     controller.getView().open();
     });
     

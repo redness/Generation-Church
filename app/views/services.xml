@@ -1,0 +1,5 @@
+<Alloy>
+	<Window id="vidWin" title="Week 3 Pre-Launch" backgroundColor="white">
+		<VideoPlayer id="videoPlayer" top="100" url="https://vimeo.com/103756766" height="300" width="300" backgroundColor="blue" autoplay="true" allowsAirPlay="true" fullscreen="true" keepScreenOn="true" mediaControlStyle="VIDEO_CONTROL_DEFAULT" />
+	</Window>
+</Alloy>

@@ -6,7 +6,6 @@
 "#lblWelcomeMessage": {
 	width:"90%",
 	font: {
-		// fontWeight:"bold",
 		fontFamily:"Baskerville-SemiBoldItalic",
 		fontSize:"20"
 	}
@@ -14,7 +13,7 @@
 
 "#viewBanner": {
 	height:Ti.UI.SIZE,
-	top:"40"
+	top:"20"
 },
 
 "#viewTagboard": {

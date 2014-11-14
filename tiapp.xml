@@ -7,7 +7,7 @@
     <property name="com-appcelerator-apm-id" type="string">53dd3c550378ea3b390000c7</property>
     <id>com.appcelerator.generation</id>
     <name>generation</name>
-    <version>1.0.5</version>
+    <version>1.1.0</version>
     <publisher>Scott</publisher>
     <url>http://</url>
     <description>undefined</description>
@@ -102,6 +102,8 @@
         <module platform="iphone">com.appcelerator.apm</module>
         <module platform="android">facebook</module>
         <module platform="iphone">facebook</module>
+        <module platform="android">analytics.google</module>
+        <module platform="iphone">analytics.google</module>
     </modules>
     <property name="ti.facebook.appid">1460671640868207</property>
     <deployment-targets>
@@ -111,7 +113,7 @@
         <target device="iphone">true</target>
         <target device="mobileweb">true</target>
     </deployment-targets>
-    <sdk-version>3.2.3.GA</sdk-version>
+    <sdk-version>3.4.0.GA</sdk-version>
     <plugins>
         <plugin version="1.0">ti.alloy</plugin>
         <plugin>com.soasta.touchtest.android</plugin>

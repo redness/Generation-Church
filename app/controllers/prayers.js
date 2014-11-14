@@ -49,7 +49,8 @@ function getVerse(verse) {
             // alert(jsonObject.response.search.result.passages[0].text);
             myVerseText = jsonObject.response.verses[0].text;
             myReference = jsonObject.response.verses[0].reference;
-            $.webViewVerse.html = myReference + " " + myVerseText;
+            //Commented to remove this from the Prayer Screen Uncomment when adding back
+            // $.webViewVerse.html = myReference + " " + myVerseText;
 
         },
         //  Checking for error and alerting with status number

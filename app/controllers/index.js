@@ -1,3 +1,5 @@
+var GA = require("analytics.google");
+var tracker = GA.getTracker("UA-55490119-1");
 
 
 // Testing using a require for a controller
@@ -5,6 +7,12 @@
 // var myVerse = new getVerse();
 
 $.imageBanner.addEventListener('click', function(e) {
+    tracker.trackEvent({
+       category: "my event category",
+       action: "clicked",
+       label: "how many clicks?",
+       value: 3 
+});
        Titanium.Platform.openURL('http://www.thegeneration.me');
     });
     
@@ -22,8 +30,8 @@ $.imageInstagram.addEventListener('click', function(e) {
        Titanium.Platform.openURL('http://instagram.com/generationchurch');
     });
     
-$.lblGencal.addEventListener('click', function(e) {
-    var controller = Alloy.createController("gencal");
+$.lblMessages.addEventListener('click', function(e) {
+    var controller = Alloy.createController("services");
     controller.getView().open();
     });
     

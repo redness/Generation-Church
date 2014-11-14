@@ -4,17 +4,9 @@
 	backgroundColor: "white"
 },
 
-"#webViewVerse": {
-	height: "180"
-},
-
-// "#header": {
-	// textAlign:"center",
-	// font: {
-		// fontSize:"16",
-	// }
+// "#webViewVerse": {
+	// height: "180"
 // },
-
 
 
 "Label": {

@@ -1,6 +1,6 @@
 <Alloy>
     <NavigationWindow id="win" platform='ios'>
-    	<Window title="#Tagboard">
+    	<Window class="container">
     		<LeftNavButton platform='ios'>
     			<Button id="btnBack">Back</Button>
     		</LeftNavButton>

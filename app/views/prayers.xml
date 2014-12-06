@@ -4,13 +4,17 @@
 			<LeftNavButton>
 				<Button id="btnBack">Back</Button>
 			</LeftNavButton>
-			<!-- <WebView id="webViewVerse" width="80%"/> -->			
-			<ScrollView class="container" backgroundImage="prayinghands.png" >				
+			<!-- <WebView id="webViewVerse" width="80%"/> -->		
+			<View id="viewBanner" >
+				<ImageView id="imageBanner" />
+			</View>	
+			<ScrollView class="container" >				
 					<Label id="lblPrayerSubject">Subject</Label>
 					<TextField id="txtPrayerSubject" borderColor="black" top="10"></TextField>
 					<Label id="lblPrayerRequest">Prayer Request</Label>
 					<TextArea id="txtaPrayerRequest" borderColor="black" top="10"></TextArea>
 					<Button id="btnSubmit" >Email Prayer Request</Button>
+					<Label id="lblNote">*Your email application will be launched and our Pastor Jarret Hamilton will receive them directly.  God Bless"</Label>
 			</ScrollView>
 		</Window>
 	</NavigationWindow>

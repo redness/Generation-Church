@@ -1,6 +1,6 @@
 <Alloy>
     <NavigationWindow id="win" platform='ios'>
-    	<Window title="Generation Church of Clayton">
+    	<Window class="container">
     		<LeftNavButton platform='ios'>
     			<Button id="btnBack">Back</Button>
     		</LeftNavButton>

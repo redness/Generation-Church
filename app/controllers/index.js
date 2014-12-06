@@ -30,24 +30,29 @@ $.imageInstagram.addEventListener('click', function(e) {
        Titanium.Platform.openURL('http://instagram.com/generationchurch');
     });
     
-$.lblMessages.addEventListener('click', function(e) {
-    var controller = Alloy.createController("services");
-    controller.getView().open();
-    });
-    
 $.imageTagboard.addEventListener('click', function(e) {
     var controller = Alloy.createController("tagboard");
     controller.getView().open();
     });
 
-$.lblAbout.addEventListener('click', function(e) {
-    var controller = Alloy.createController("dosomethingnow");
+$.lblMessages.addEventListener('click', function(e) {
+    var controller = Alloy.createController("messages");
     controller.getView().open();
     });
     
 $.lblPrayers.addEventListener('click', function(e) {
     var controller = Alloy.createController("prayers");
     controller.getView().open(); 
+});
+    
+$.lblAbout.addEventListener('click', function(e) {
+    var controller = Alloy.createController("dosomethingnow");
+    controller.getView().open();
+    });
+
+$.lblGive.addEventListener('click', function(e) {
+   var controller = Alloy.createController("give") ;
+   controller.getView().open();
 });
 
 $.index.open();

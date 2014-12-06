@@ -7,14 +7,21 @@
 // "#webViewVerse": {
 	// height: "180"
 // },
+"#viewBanner": {
+	height:Ti.UI.SIZE,
+	top:"0"
+},
 
+"#imageBanner": {
+	image:"GenerationBanner.png"
+},
 
 "Label": {
 	top:"10",
 	textAlign:"left",
 	width:"75%",
-	color:"white",
-	shadowColor:"black",
+	color:"black",
+	shadowColor:"grey",
 	shadowOffset: { x: 1, y: 1 },
 	font: {
 		fontWeight:"bold",

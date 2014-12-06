@@ -10,9 +10,9 @@
     <version>1.2.0</version>
     <publisher>Scott</publisher>
     <url>http://</url>
-    <description/>
+    <description>undefined</description>
     <copyright>2014 by Scott</copyright>
-    <icon>appicon.png</icon>
+    <icon>GenerationLogo.png</icon>
     <fullscreen>false</fullscreen>
     <navbar-hidden>false</navbar-hidden>
     <analytics>true</analytics>

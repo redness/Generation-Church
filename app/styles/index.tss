@@ -7,7 +7,7 @@
 	width:"90%",
 	font: {
 		fontFamily:"Baskerville-SemiBoldItalic",
-		fontSize:"20"
+		fontSize:"18"
 	}
 },
 

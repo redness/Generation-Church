@@ -30,10 +30,10 @@ $.imageInstagram.addEventListener('click', function(e) {
        Titanium.Platform.openURL('http://instagram.com/generationchurch');
     });
     
-$.imageTagboard.addEventListener('click', function(e) {
-    var controller = Alloy.createController("tagboard");
-    controller.getView().open();
-    });
+// $.imageTagboard.addEventListener('click', function(e) {
+    // var controller = Alloy.createController("tagboard");
+    // controller.getView().open();
+    // });
 
 $.lblMessages.addEventListener('click', function(e) {
     var controller = Alloy.createController("messages");

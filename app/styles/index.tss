@@ -6,7 +6,7 @@
 "#lblWelcomeMessage": {
 	width:"90%",
 	font: {
-		fontFamily:"Baskerville-SemiBoldItalic",
+		fontFamily:"SourceSansPro-SemiboldIt",
 		fontSize:"18"
 	}
 },
@@ -16,9 +16,11 @@
 	top:"20"
 },
 
-"#viewTagboard": {
-	height:"80",
-	top:"10"
+"#lblForClaytonNC": {
+	font: {
+		fontFamily:"SourceSansPro-Black",
+		fontSize:"16",
+	}
 },
 
 "#socialIcons": {
@@ -54,11 +56,6 @@
 	image:"GenerationBanner.png"
 },
 
-"#imageTagboard": {
-	height:Ti.UI.SIZE,
-	image:"tagboard.png"
-},
-
 "View": {
 	top:"10"
 },
@@ -69,7 +66,7 @@
 	top:"10",
 	color:"black",
 	font: {
-		fontFamily:"ChalkboardSE-Regular",
+		fontFamily:"SourceSansPro-ExtraLight",
 		fontSize:"15"
 	}
 }

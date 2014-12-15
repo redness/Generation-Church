@@ -26,6 +26,10 @@ $.imageTwitter.addEventListener('click', function(e) {
         Titanium.Platform.openURL('https://twitter.com/TheGCClayton');
     });
     
+$.lblForClaytonNC.addEventListener('click', function(e) {
+       Titanium.Platform.openURL('https://tagboard.com/forclaytonnc/181676');
+    });
+    
 $.imageInstagram.addEventListener('click', function(e) {
        Titanium.Platform.openURL('http://instagram.com/generationchurch');
     });

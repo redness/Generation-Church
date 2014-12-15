@@ -3,9 +3,11 @@
 		<View id="viewBanner">
 			<ImageView id="imageBanner" />
 		</View>	
-			<Label id="lblForClaytonNC" color="#01AEF0">#ForClaytonNC</Label>
+			<Label id="lblForClaytonNC" color="#01AEF0">#ForClaytonNC</Label>			
 			<Label id="lblWelcomeMessage" color="black" top="20">Change making followers of Jesus</Label>
-			<!-- <Label width="100%" height="1" top="20" backgroundColor="#01AEF0" /> -->			
+			<!-- <Label width="100%" height=".1" top="20" backgroundColor="#01AEF0" />			 -->
+		<View height="5" backgroundColor="01AEF0">
+		</View>
 			<Label id="lblSocial" color="01AEF0" top="20">Like or Follow Us on Social Media</Label>
 		<View id="socialIcons">
 			<ImageView id="imageFacebook" />

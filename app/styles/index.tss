@@ -6,7 +6,7 @@
 "#lblWelcomeMessage": {
 	width:"90%",
 	font: {
-		fontFamily:"SourceSansPro-SemiboldIt",
+		fontFamily:"SourceSansPro-BoldIt",
 		fontSize:"18"
 	}
 },

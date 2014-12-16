@@ -51,6 +51,11 @@ $.lblGive.addEventListener('click', function(e) {
    controller.getView().open();
 });
 
+// $.lblWelcomeVid.addEventListener('click', function(e) {
+   // var controller = Alloy.createController("welcomevid") ;
+   // controller.getView().open();
+// });
+
 $.index.open();
 
 

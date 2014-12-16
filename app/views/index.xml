@@ -15,6 +15,7 @@
 			<Label id="lblMessages" top="20">View Previous Messages</Label>			
 			<Label id="lblPrayers">Submit a Prayer Request</Label>
 			<Label id="lblService">Service Times</Label>
-			<Label id="lblGive">Give</Label>	
+			<Label id="lblGive">Give</Label>
+			<!-- <Label id="lblWelcomeVid">Welcome Video</Label>	 -->	
 	</Window>
 </Alloy>

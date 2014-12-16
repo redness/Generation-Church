@@ -1,0 +1,9 @@
+<Alloy>
+    <NavigationWindow id="navWin">
+	    <Window id="vidWin" backgroundColor="white">
+	    	<View top="20">
+	        	<VideoPlayer id="videoPlayer" ns="Ti.Media" top="2" url="/movie/WebOpeningVid.mp4" height="300" width="300" backgroundColor="blue" fullscreen="true" autoplay="true" />
+	   		</View>
+	    </Window>
+    </NavigationWindow>
+</Alloy>

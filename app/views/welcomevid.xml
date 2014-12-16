@@ -5,7 +5,7 @@
     			<Label id="lblBack">Back</Label>
     		</LeftNavButton>
 	    	<View top="20">
-	        	<VideoPlayer id="videoPlayer" ns="Ti.Media" top="2" url="/movie/WebOpeningVid.mp4" height="300" width="300" backgroundColor="white" fullscreen="true" autoplay="true" />
+	        	<VideoPlayer id="videoPlayer" ns="Ti.Media" top="2" url="http://vimeo.com/112440696/download?t=1418705572&v=309706755&s=1f5e64078dc3a0d61e8b37d649948d59" height="300" width="300" backgroundColor="white" fullscreen="true" autoplay="true" />
 	   		</View>
 	    </Window>
     </NavigationWindow>

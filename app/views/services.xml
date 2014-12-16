@@ -18,6 +18,7 @@
 				<Label id="lblAddressTitle" color="01AEF0">Generation Church</Label>
 				<Label id="lblAddress">34 Oleander Drive</Label>
 				<Label id="lblCityState">Clayton, NC</Label>
+				<Button id="btnDirections" color="01AEF0">Get Directions</Button>>
 			</View>
 		</Window>
 	</NavigationWindow>

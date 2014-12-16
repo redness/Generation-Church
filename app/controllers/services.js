@@ -9,4 +9,8 @@ $.lblBack.addEventListener('click', function(e){
    $.win.close(); 
 });
 
+$.btnDirections.addEventListener('click', function(e) {
+   Ti.Platform.openURL("http://maps.apple.com/?daddr=34%20Oleander%20drive%20Clayton%20NC"); 
+});
+
 $.win.open();

@@ -1,0 +1,24 @@
+<Alloy>
+	<NavigationWindow id="win" platform="ios">
+		<Window id="mapWin" class="container">
+			<LeftNavButton platform='ios'>
+    			<Button id="btnBack">Back</Button>
+    		</LeftNavButton>
+			<View height='33%'>
+				<Module id="mapview" module="ti.map" method="createView" onClick="report">
+					<Annotation id='generationHQ' myid='1' />	
+				</Module>
+			</View>
+			<View height="5" backgroundColor="01AEF0" />
+			<View backgroundColor="white" class="container">
+				<!-- <Button id="btnDirections" top="0">Get Directions</Button> -->				
+				<Label id="lblService" top="50">Service Times</Label>			
+				<Label id="lblServiceTimes">Sunday @ 9:00a & 10:30a</Label>
+				<Label />
+				<Label id="lblAddressTitle" color="01AEF0">Generation Church</Label>
+				<Label id="lblAddress">34 Oleander Drive</Label>
+				<Label id="lblCityState">Clayton, NC</Label>
+			</View>
+		</Window>
+	</NavigationWindow>
+</Alloy>

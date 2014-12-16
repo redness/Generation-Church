@@ -56,6 +56,13 @@
 	image:"GenerationBanner.png"
 },
 
+"#lblSocial": {
+	font: {
+		fontFamily:"SourceSansPro-Semibold",
+		fontSize:"14"
+	}
+},
+
 "View": {
 	top:"10"
 },

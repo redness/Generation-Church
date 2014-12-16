@@ -21,8 +21,6 @@ $.imageFacebook.addEventListener('click', function(e) {
     });
     
 $.imageTwitter.addEventListener('click', function(e) {
-        // var controller = Alloy.createController("twitter");
-        // controller.getView().open();
         Titanium.Platform.openURL('https://twitter.com/TheGCClayton');
     });
     
@@ -44,9 +42,8 @@ $.lblPrayers.addEventListener('click', function(e) {
     controller.getView().open(); 
 });
     
-$.lblAbout.addEventListener('click', function(e) {
-    var controller = Alloy.createController("dosomethingnow");
-    controller.getView().open();
+$.lblService.addEventListener('click', function(e) {
+    var controller = Alloy.createController("services");
     });
 
 $.lblGive.addEventListener('click', function(e) {

@@ -14,3 +14,5 @@
     // consumerSecret:'consumer-secret',
     // consumerKey:'consumer-key'
 // });
+
+Alloy.Globals.Map = require('ti.map');

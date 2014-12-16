@@ -1,0 +1,36 @@
+
+".container" : {
+  layout: "vertical"
+}
+
+"#mapview" : {
+    region : {
+        latitude:35.649229,
+        longitude:-78.396477,
+        latitudeDelta:0.01,
+        longitudeDelta:0.01
+    }
+},
+"#generationHQ" : {
+    latitude: 35.649229,
+    longitude: -78.396477,
+    title: "Generation Church",
+    subtitle: "34 Oleander Drive Clayton NC",
+    // image: "bluedroppin.png"
+    pincolor: Alloy.Globals.Map.ANNOTATION_BLUE,
+    animate: true
+},
+
+"#lblService" : {
+	font: {
+		fontFamily:"SourceSansPro-BoldIt",
+		fontSize:"22"
+	}
+},
+
+"Label" : {
+	font: {
+		fontFamily:"SourceSansPro-Regular",
+		fontSize:"18"
+	}
+}

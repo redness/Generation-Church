@@ -5,7 +5,7 @@ function report(evt) {
     Ti.API.info("Annotation " + evt.title + " clicked, id: " + evt.annotation.myid);
 };
 
-$.btnBack.addEventListener('click', function(e){
+$.lblBack.addEventListener('click', function(e){
    $.win.close(); 
 });
 

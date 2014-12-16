@@ -4,9 +4,13 @@
 	backgroundColor: "white"
 },
 
-// "#webViewVerse": {
-	// height: "180"
-// },
+"#lblBack" : {
+	font: {
+		fontFamily:"SourceSansPro-Semibold",
+		fontSize:"16"
+	}
+},
+
 "#viewBanner": {
 	height:Ti.UI.SIZE,
 	top:"0"

@@ -21,6 +21,13 @@
     animate: true
 },
 
+"#lblBack" : {
+	font: {
+		fontFamily:"SourceSansPro-Semibold",
+		fontSize:"16"
+	}
+},
+
 "#lblService" : {
 	font: {
 		fontFamily:"SourceSansPro-BoldIt",

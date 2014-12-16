@@ -1,10 +1,9 @@
 <Alloy>
 	<NavigationWindow id="win" class="container" platform="ios">
-		<Window id="winHeader" title="Prayer Request" class="container">
+		<Window id="winHeader" class="container">
 			<LeftNavButton>
-				<Button id="btnBack">Back</Button>
+				<Label id="lblBack">Back</Label>
 			</LeftNavButton>
-			<!-- <WebView id="webViewVerse" width="80%"/> -->		
 			<View id="viewBanner" >
 				<ImageView id="imageBanner" />
 			</View>	

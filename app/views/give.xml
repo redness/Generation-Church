@@ -2,7 +2,7 @@
     <NavigationWindow id="win" platform='ios'>
     	<Window class="container">
     		<LeftNavButton platform='ios'>
-    			<Button id="btnBack">Back</Button>
+    			<Label id="lblBack" color="01AEF0">Back</Label>
     		</LeftNavButton>
 	        <WebView id="webview" url="https://onrealm.org/Generation/Give/UGHINYENYP" />
     	</Window>

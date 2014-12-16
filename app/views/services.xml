@@ -2,7 +2,7 @@
 	<NavigationWindow id="win" platform="ios">
 		<Window id="mapWin" class="container">
 			<LeftNavButton platform='ios'>
-    			<Button id="btnBack">Back</Button>
+    			<Label id="lblBack" color="01AEF0">Back</Label>
     		</LeftNavButton>
 			<View height='33%'>
 				<Module id="mapview" module="ti.map" method="createView" onClick="report">

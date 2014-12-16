@@ -32,7 +32,8 @@
 	font: {
 		fontFamily:"SourceSansPro-BoldIt",
 		fontSize:"22"
-	}
+	},
+	top:"50"
 },
 
 "Label" : {

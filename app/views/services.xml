@@ -12,7 +12,7 @@
 			<View height="5" backgroundColor="01AEF0" />
 			<View backgroundColor="white" class="container">
 				<!-- <Button id="btnDirections" top="0">Get Directions</Button> -->				
-				<Label id="lblService" top="50">Service Times</Label>			
+				<Label id="lblService">Service Times</Label>			
 				<Label id="lblServiceTimes">Sunday @ 9:00a & 10:30a</Label>
 				<Label />
 				<Label id="lblAddressTitle" color="01AEF0">Generation Church</Label>

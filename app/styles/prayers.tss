@@ -1,15 +1,23 @@
 
-".container" : {
+".container": {
 	layout: "vertical",
 	backgroundColor: "white"
 },
 
-"#lblBack" : {
+"#lblBack": {
 	font: {
 		fontFamily:"SourceSansPro-Semibold",
 		fontSize:"16"
-	}
+	},
+	color: "01AEF0"
+
 },
+
+"#lblNote": {
+	font: {
+		fontSize:"10"
+	}
+}
 
 "#viewBanner": {
 	height:Ti.UI.SIZE,
@@ -28,9 +36,9 @@
 	shadowColor:"grey",
 	shadowOffset: { x: 1, y: 1 },
 	font: {
-		fontWeight:"bold",
-		fontSize:"14"
-	}
+		fontFamily:"SourceSansPro-Semibold",
+		fontSize:"16"
+	},
 },
 
 "TextField": {
@@ -52,7 +60,9 @@
 	top:"10",
 	width:"200",
 	backgroundColor:"white",
-	color:"black",
-	borderRadius:"10",
-	borderColor:"black"
+	color: "01AEF0",
+	font: {
+		fontFamily:"SourceSansPro-Semibold",
+		fontSize:"16"
+	},
 }

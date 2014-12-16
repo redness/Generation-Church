@@ -13,7 +13,7 @@
 					<Label id="lblPrayerRequest">Prayer Request</Label>
 					<TextArea id="txtaPrayerRequest" borderColor="black" top="10"></TextArea>
 					<Button id="btnSubmit" >Email Prayer Request</Button>
-					<Label id="lblNote">*Your email application will be launched and our Pastor Jarret Hamilton will receive them directly.  God Bless"</Label>
+					<Label id="lblNote">*Email app will be launched seperately.  God Bless</Label>
 			</ScrollView>
 		</Window>
 	</NavigationWindow>

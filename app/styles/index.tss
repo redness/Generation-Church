@@ -3,24 +3,45 @@
 	layout:"vertical"
 },
 
-"#lblWelcomeMessage": {
-	width:"90%",
-	font: {
-		fontFamily:"SourceSansPro-BoldIt",
-		fontSize:"18"
-	}
-},
-
 "#viewBanner": {
 	height:Ti.UI.SIZE,
 	top:"20"
+},
+
+"#imageBanner": {
+	image:"GenerationBanner.png"
 },
 
 "#lblForClaytonNC": {
 	font: {
 		fontFamily:"SourceSansPro-Black",
 		fontSize:"16",
-	}
+	},
+	color: "#01AEF0"
+},
+
+"#lblWelcomeMessage": {
+	width:"90%",
+	font: {
+		fontFamily:"SourceSansPro-BoldIt",
+		fontSize:"18"
+	},
+	color: "black",
+	top: 20
+},
+
+"#vSocial": {
+	height: 5,
+	backgroundColor: "#01AEF0"
+},
+
+"#lblSocial": {
+	font: {
+		fontFamily:"SourceSansPro-Semibold",
+		fontSize:"14"
+	},
+	color: "#01AEF0",
+	top: 20
 },
 
 "#socialIcons": {
@@ -49,18 +70,6 @@
 	width:"33",
 	left:"15",
 	image:"instagram.png"
-},
-
-
-"#imageBanner": {
-	image:"GenerationBanner.png"
-},
-
-"#lblSocial": {
-	font: {
-		fontFamily:"SourceSansPro-Semibold",
-		fontSize:"14"
-	}
 },
 
 "View": {

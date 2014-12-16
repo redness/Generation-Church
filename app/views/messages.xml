@@ -2,7 +2,7 @@
     <NavigationWindow id="win" platform='ios'>
     	<Window class="container">
     		<LeftNavButton platform='ios'>
-    			<Label id="lblBack" color="01AEF0">Back</Label>
+    			<Label id="lblBack">Back</Label>
     		</LeftNavButton>
 	        <WebView id="webview" url="http://www.thegeneration.me/prelaunch/" />
     	</Window>

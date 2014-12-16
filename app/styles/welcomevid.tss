@@ -1,4 +1,13 @@
 
 ".container" : {
   
-}
+},
+
+"#lblBack": {
+	font: {
+		fontFamily:"SourceSansPro-Semibold",
+		fontSize:"16"
+	},
+	color: "01AEF0"
+
+},

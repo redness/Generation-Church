@@ -1,8 +1,11 @@
 <Alloy>
     <NavigationWindow id="navWin">
 	    <Window id="vidWin" backgroundColor="white">
+	    	<LeftNavButton platform='ios'>
+    			<Label id="lblBack">Back</Label>
+    		</LeftNavButton>
 	    	<View top="20">
-	        	<VideoPlayer id="videoPlayer" ns="Ti.Media" top="2" url="/movie/WebOpeningVid.mp4" height="300" width="300" backgroundColor="blue" fullscreen="true" autoplay="true" />
+	        	<VideoPlayer id="videoPlayer" ns="Ti.Media" top="2" url="/movie/WebOpeningVid.mp4" height="300" width="300" backgroundColor="white" fullscreen="true" autoplay="true" />
 	   		</View>
 	    </Window>
     </NavigationWindow>

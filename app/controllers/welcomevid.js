@@ -1,3 +1,7 @@
 var args = arguments[0] || {};
 
-$.vidWin.open();
+$.navWin.open();
+
+$.lblBack.addEventListener('click', function(e){
+   $.navWin.close(); 
+});

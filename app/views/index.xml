@@ -16,6 +16,6 @@
 			<Label id="lblPrayers">Submit a Prayer Request</Label>
 			<Label id="lblService">Service Times</Label>
 			<Label id="lblGive">Give</Label>
-			<!-- <Label id="lblWelcomeVid">Welcome Video</Label>	 -->	
+			<Label id="lblWelcomeVid">Welcome Video</Label>		
 	</Window>
 </Alloy>

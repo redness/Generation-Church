@@ -1,9 +1,7 @@
 <Alloy>
 	<NavigationWindow id="win" class="container" platform="ios">
 		<Window id="winHeader" class="container">
-			<LeftNavButton>
-				<Label id="lblBack">Back</Label>
-			</LeftNavButton>
+			<Widget src="com.scottdavenportjr.navigation" id="nav"></Widget>
 			<View id="viewBanner" >
 				<ImageView id="imageBanner" />
 			</View>	

@@ -1,9 +1,7 @@
 <Alloy>
     <NavigationWindow id="win" platform='ios'>
     	<Window class="container">
-    		<LeftNavButton platform='ios'>
-    			<Label id="lblBack">Back</Label>
-    		</LeftNavButton>
+    		<Widget src="com.scottdavenportjr.navigation" id="nav"></Widget>
 	        <WebView id="webview" url="http://www.thegeneration.me/prelaunch/" />
     	</Window>
     </NavigationWindow>

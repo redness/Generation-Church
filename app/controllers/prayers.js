@@ -68,9 +68,7 @@ var args = arguments[0] || {};
 // }
 
 
-$.lblBack.addEventListener('click', function(e){
-   $.win.close(); 
-});
+$.nav.init($.win);
 
 $.winHeader.addEventListener( 'load', function(e) {
     // // for loop to go through arrMyVerses, need to come up with a better function as this is going through unecssary iterations

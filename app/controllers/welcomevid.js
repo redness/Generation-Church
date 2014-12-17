@@ -1,7 +1,7 @@
 var args = arguments[0] || {};
 
+$.nav.init($.navWin);
+
 $.navWin.open();
 
-$.lblBack.addEventListener('click', function(e){
-   $.navWin.close(); 
-});
+

@@ -1,0 +1,5 @@
+<Alloy>
+	<LeftNavButton platform='ios'>
+    	<Label id="lblBack">Back</Label>
+    </LeftNavButton>
+</Alloy>

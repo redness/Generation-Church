@@ -1,10 +1,10 @@
 <Alloy>
     <NavigationWindow id="win" platform='ios'>
     	<Window class="container">
-    		<LeftNavButton platform='ios'>
-    			<Label id="lblBack">Back</Label>
-    		</LeftNavButton>
-	        <WebView id="webview" url="https://onrealm.org/Generation/Give/UGHINYENYP" />
+			<LeftNavButton platform='ios'>
+		    	<Label id="lblBack">Back</Label>
+		    </LeftNavButton>	        
+    		<WebView id="webview" url="https://onrealm.org/Generation/Give/UGHINYENYP" />
     	</Window>
     </NavigationWindow>
 </Alloy>

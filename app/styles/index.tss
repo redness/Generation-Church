@@ -27,7 +27,7 @@
 		fontSize:"18"
 	},
 	color: "black",
-	top: 20
+	top: 10
 },
 
 "#vSocial": {
@@ -82,7 +82,7 @@
 	top:"10",
 	color:"black",
 	font: {
-		fontFamily:"SourceSansPro-ExtraLight",
+		fontFamily:"SourceSansPro-Regular",
 		fontSize:"15"
 	}
 }

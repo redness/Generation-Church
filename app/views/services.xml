@@ -1,16 +1,16 @@
 <Alloy>
 	<NavigationWindow id="win" platform="ios">
 		<Window id="mapWin" class="container">
-			<View height="5" backgroundColor="01AEF0" />
+			<View height="5" backgroundColor="#01AEF0" />
 				<LeftNavButton platform='ios'>
-	    			<Label id="lblBack" color="01AEF0">Back</Label>
+	    			<Label id="lblBack" color="#01AEF0">Back</Label>
 	    		</LeftNavButton>
 			<View height='33%'>
 				<Module id="mapview" module="ti.map" method="createView" onClick="report">
 					<Annotation id='generationHQ' myid='1' />	
 				</Module>
 			</View>
-			<View height="5" backgroundColor="01AEF0" />
+			<View height="5" backgroundColor="#01AEF0" />
 			<View backgroundColor="white" class="container">
 				<Label id="lblService">Service Times</Label>			
 				<Label id="lblServiceTimes">Sunday @ 9:00a & 10:30a</Label>

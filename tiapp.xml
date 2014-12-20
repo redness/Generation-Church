@@ -7,7 +7,7 @@
     <property name="com-appcelerator-apm-id" type="string">53dd3c550378ea3b390000c7</property>
     <id>com.appcelerator.generation</id>
     <name>generation</name>
-    <version>1.9.0</version>
+    <version>1.9.1</version>
     <publisher>Scott</publisher>
     <url>http://</url>
     <description>undefined</description>
